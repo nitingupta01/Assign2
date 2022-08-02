@@ -1,4 +1,2 @@
-const promise = Promise.resolve("Success");
-promise.then((val)=>{
-    setTimeout(console.log(val),4000)
-});
+const promise = Promise.resolve("succcess");
+promise.then(val=>console.log(val));
